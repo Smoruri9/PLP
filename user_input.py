@@ -1,4 +1,4 @@
-name = input("What is your name ")
+name = input("What is your name? ")
 age = input("Enter age ")
 location = input("Where do you live? ")
 
