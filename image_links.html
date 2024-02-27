@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Links</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: rgb(32, 69, 69);
+    }
+    header, nav, main {
+      padding: 20px;
+    }
+    nav a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .image-container {
+      flex: 0 0 calc(33.333% - 20px);
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Our Website!</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#menu">Menu</a>
+</nav>
+
+<main>
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our website! Explore our collection of images related to technology, nature, and food.</p>
+    <div class="image-container">
+      <a href="https://example.com/technology"><img src="tech_.jpg" alt="Technology"  width="700" height="300"></a>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="image-container">
+      <a href="https://example.com/nature"><img src="nature1.jpg" alt="Nature 1"  width="700" height="300"></a>
+    </div>
+    <div class="image-container">
+      <a href="https://example.com/nature"><img src="nature2.jpg" alt="Nature 2"  width="700" height="300"></a>
+    </div>
+    <div class="image-container">
+      <a href="https://example.com/nature"><img src="nature3.jpg" alt="Nature 3"  width="700" height="300"></a>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Menu</h2>
+    <div class="image-container">
+      <a href="https://example.com/nature"><img src="food 1.jpg" alt="Food 1"  width="800" height="300"></a>
+    </div>
+    <div class="image-container">
+      <a href="https://example.com/nature"><img src="food 2.jpg" alt="Food 2"  width="800" height="300"></a>
+    </div>
+    <div class="image-container">
+      <a href="https://example.com/nature"><img src="food 3.jpg" alt="Food 3"  width="800" height="300"></a>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
